@@ -1,0 +1,39 @@
+\newcommand{\AND}{\unskip
+\cleaders\copy\ANDbox\hskip\wd\ANDbox
+\ignorespaces
+}
+\newsavebox\ANDbox
+\sbox\ANDbox{}
+
+\placelastupdatedtext
+\begin{header}
+\textbf{\fontsize{24 pt}{24 pt}\selectfont \namesurname}
+
+\vspace{0.3 cm}
+
+\normalsize
+\mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}\location}%
+\kern 0.25 cm%
+\AND%
+\kern 0.25 cm%
+\mbox{\hrefWithoutArrow{mailto:\mailaddr}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}\mailaddr}}%
+\kern 0.25 cm%
+\AND%
+\kern 0.25 cm%
+\mbox{\hrefWithoutArrow{tel:\phone}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}\phone}}%
+\kern 0.25 cm%
+% \AND%
+% \kern 0.25 cm%
+% \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}yourwebsite.com}}%
+% \kern 0.25 cm%
+\AND%
+\kern 0.25 cm%
+\mbox{\hrefWithoutArrow{https://linkedin.com/in/\username}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}\username}}%
+\kern 0.25 cm%
+\AND%
+\kern 0.25 cm%
+\mbox{\hrefWithoutArrow{https://github.com/\username}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}\username}}%
+\end{header}
+
+\vspace{0.3 cm - 0.3 cm}
+

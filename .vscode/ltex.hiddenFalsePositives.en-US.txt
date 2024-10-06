@@ -1,0 +1,6 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q0.25 cm 0.25 cmhttps://github.com/.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q0.25 cm 0.25 cmhttps://linkedin.com/in/.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q0.25 cm 0.25 cmtel: .\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q0.25 cm 0.25 cmtel: .\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q0.25 cm 0.25 cmmailto:mail.fatih.durmaz@gmail.com.[regular].\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q1.5 BSc in Computer Science and Engineering Sabanci University Dissertation: TimeInspector: A Static Analysis Approach for Detecting Timing Attacks Advisors: Erkay Savas, Cemal Yilmaz\\E$"}
